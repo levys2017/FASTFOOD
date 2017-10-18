@@ -16,7 +16,15 @@ public class Cliente {
     private String n_cartao;
     private Date dt_venc;
     private char csv;
+    
+    public Cliente(){
+    }
 
+    public Cliente(String nome, String cpf) {
+        this.nome = nome;
+        this.cpf = cpf;
+    }
+    
     public int getId_cliente() {
         return id_cliente;
     }
@@ -113,5 +121,5 @@ public class Cliente {
         this.csv = csv;
     }
     
-    
+ 
 }
