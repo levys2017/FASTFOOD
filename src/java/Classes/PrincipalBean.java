@@ -18,7 +18,7 @@ public class PrincipalBean implements Serializable{
         
         cliente.add(clienteSelected);    
         clienteSelected = new Cliente();
-    
+   
     }
    
        public void limpaTabela(){
